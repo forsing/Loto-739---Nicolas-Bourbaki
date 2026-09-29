@@ -9,9 +9,9 @@ from pathlib import Path
 import numpy as np
 from distribution_regressor import DistributionRegressor
 
-DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4692_k77.csv"
-# DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_2968.csv"
-# DEFAULT_CSV = "/Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_plus_1724.csv"
+DEFAULT_CSV = "/data/loto7_4692_k77.csv"
+# DEFAULT_CSV = "/data/loto7_4692_k77_loto_2968.csv"
+# DEFAULT_CSV = "/data/loto7_4692_k77_loto_plus_1724.csv"
 
 ZBIROVI = np.arange(28, 253)
 RASPONI = np.arange(6, 39)
@@ -255,7 +255,7 @@ Učenje strukture: broj 5/7...
 Učenje strukture: broj 6/7...
 Učenje strukture: broj 7/7...
 
-NEXT: 04 08 12 23 27 32 37
+NEXT: 04 x 12 y 27 z 37
 Zbir: 143 | Raspon: 33
 """
 
@@ -272,7 +272,7 @@ Učenje strukture: broj 5/7...
 Učenje strukture: broj 6/7...
 Učenje strukture: broj 7/7...
 
-NEXT: 03 05 08 14 22 34 36
+NEXT: 03 x 08 y 22 z 36
 Zbir: 122 | Raspon: 33
 """
 
@@ -289,6 +289,6 @@ Učenje strukture: broj 5/7...
 Učenje strukture: broj 6/7...
 Učenje strukture: broj 7/7...
 
-NEXT: 04 09 15 23 30 34 37
+NEXT: 04 x 15 y 30 z 37
 Zbir: 152 | Raspon: 33
 """
