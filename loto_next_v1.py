@@ -23,9 +23,9 @@ from distribution_regressor import DistributionRegressor
 
 
 DEFAULT_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4692_k77.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_2968.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_plus_1724.csv"
+    "/data/loto7_4692_k77.csv"
+    # "/data/loto7_4692_k77_loto_2968.csv"
+    # "/data/loto7_4692_k77_loto_plus_1724.csv"
 )
 SUM_VALUES = np.arange(28, 253)
 RANGE_VALUES = np.arange(6, 39)
@@ -455,7 +455,7 @@ if __name__ == "__main__":
 
 
 """
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4692_k77.csv
+CSV: /data/loto7_4692_k77.csv
 Izvlačenja: 4692
 Poslednje: 03 05 12 14 15 23 31
 
@@ -481,7 +481,7 @@ DISTRIBUCIJA RASPONA
 
 
 ==========================================================
-NEXT: 01 02 03 04 05 07 26
+NEXT: 01 02 03 x y z 26
 ==========================================================
 Zbir: 48
 Raspon: 25
@@ -496,7 +496,7 @@ Modeli imaju naucenu masu samo u opsegu ciljeva vidjenih u treningu.
 
 
 """
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_2968.csv
+CSV: /data/loto7_4692_k77_loto_2968.csv
 Izvlačenja: 2968
 Poslednje: 01 05 09 17 19 27 34
 
@@ -506,7 +506,7 @@ Poslednje: 01 05 09 17 19 27 34
 [4/4] Izbor i provera NEXT sedmorke...
 
 ==========================================================
-NEXT: 01 02 03 04 05 07 30
+NEXT: 01 02 03 x y z 30
 ==========================================================
 Zbir: 52
 Raspon: 29
@@ -520,7 +520,7 @@ Unutar profila izabrana je srednja sedmorka; model ih međusobno ne razlikuje.
 
 
 """
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4692_k77_loto_plus_1724.csv
+CSV: /data/loto7_4692_k77_loto_plus_1724.csv
 Izvlačenja: 1724
 Poslednje: 03 05 12 14 15 23 31
 
@@ -530,7 +530,7 @@ Poslednje: 03 05 12 14 15 23 31
 [4/4] Izbor i provera NEXT sedmorke...
 
 ==========================================================
-NEXT: 01 02 03 04 05 07 26
+NEXT: 01 02 03 x y z 26
 ==========================================================
 Zbir: 48
 Raspon: 25
